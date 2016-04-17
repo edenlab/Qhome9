@@ -20,8 +20,8 @@
 }
 
 /* Navbar logo */
-.navbar-Qhome9-logo {
-  width: 150px;
+.navbar-Qhome9-logo img{
+  width: 60px;
 }
 
 /* Navbar right section (with form, links, button) */
@@ -33,6 +33,7 @@
 
 /* Navbar item */
 .navbar-Qhome9-item {
+  color: black;
   flex: 0 1 auto;
   cursor: pointer;
   padding: 0 20px;
