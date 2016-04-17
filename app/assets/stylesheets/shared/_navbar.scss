@@ -20,7 +20,7 @@
 }
 
 /* Navbar logo */
-.navbar-Qhome9-logo img {
+.navbar-Qhome9-logo {
   width: 150px;
 }
 
@@ -36,16 +36,6 @@
   flex: 0 1 auto;
   cursor: pointer;
   padding: 0 20px;
-}
-
-/* Navbar standard link */
-.navbar-Qhome9-link {
-  color: #616668;
-  font-size: 14px;
-}
-.navbar-Qhome9-link:hover {
-  color: $red;
-  text-decoration: none;
 }
 
 /* Navbar dropdown menu */
