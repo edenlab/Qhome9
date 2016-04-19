@@ -3,18 +3,21 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-4">
-        <%= link_to pages_rehabilitation_path, class: "home-item" do %>
-        <%= image_tag "bidassoa-003.png" %>
+        <%= link_to pages_rehabilitation_path do %>
+        <%= image_tag "bidassoa-003.png", class: "home-card" %>
         <% end %>
       </div>
        <div class="col-xs-12 col-md-4">
-        <%= link_to pages_meuble_path, class: "home-item" do %>
-        <%= image_tag "table1.jpg" %>
+        <%= link_to pages_meuble_path do %>
+        <%= image_tag "table1.jpg", class: "home-card"  %>
         <% end %>
+        <span class= "home-card-description">
+        Meubles d'inspiration fifties
+        </span>
       </div>
        <div class="col-xs-12 col-md-4">
-        <%= link_to pages_particulier_path, class: "home-item" do %>
-        <%= image_tag "manel-2.jpg" %>
+        <%= link_to pages_particulier_path do %>
+        <%= image_tag "manel-2.jpg", class: "home-card" %>
         <% end %>
       </div>
     </div>
