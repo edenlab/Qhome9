@@ -1,0 +1,28 @@
+.about-page {
+  margin: 150px;
+}
+
+.avatar-about {
+  width: 250px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description-about {
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.title-about {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.text-about {
+  text-align: justify;
+}
