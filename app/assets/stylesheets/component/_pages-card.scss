@@ -1,0 +1,27 @@
+.pages-card {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+  // background-size: cover !important;
+  color: #FFF;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.pages-card-description {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: none;
+}
+
+
+.pages-card:hover {
+  opacity: 0.7;
+}
+
+.pages-card:hover .pages-card-description {
+  display: block;
+}
